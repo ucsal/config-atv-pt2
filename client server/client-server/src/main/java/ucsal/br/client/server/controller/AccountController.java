@@ -20,6 +20,9 @@ public class AccountController {
     @Value("${taxa:0.0}")
     private Double taxa;
 
+    @Value("${database_password:null}")
+    private String dbPassword;
+
     @GetMapping("/info")
     public Map<String, Object> getInfo() {
         Map<String, Object> dados = new HashMap<>();
