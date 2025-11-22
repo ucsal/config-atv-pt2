@@ -1,2 +1,3 @@
 msg: "teste"
 taxa: 0.05
+database_password: '{cipher}9352c91fb834679f0b2f0352c304d6922e37c0cb637df58122ee3e3167569776'
