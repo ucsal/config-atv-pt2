@@ -28,6 +28,7 @@ public class AccountController {
         Map<String, Object> dados = new HashMap<>();
         dados.put("mensagem", message);
         dados.put("taxa_juros", taxa);
+        dados.put("senha_secreta", dbPassword);
         return dados;
     }
 }
